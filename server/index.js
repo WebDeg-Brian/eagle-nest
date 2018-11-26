@@ -8,6 +8,7 @@ app.listen(8080, err => {
 
 const mongoose = require("mongoose");
 
+// MongoDB Connection Handler
 mongoose.connect(``, {
     useNewUrlParser: true
 });
